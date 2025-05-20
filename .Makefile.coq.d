@@ -22,9 +22,9 @@ Types.vos Types.vok Types.required_vos: Types.v ./Maps.vos Smallstep.vos
 TypesTest.vo TypesTest.glob TypesTest.v.beautified TypesTest.required_vo: TypesTest.v Types.vo
 TypesTest.vio: TypesTest.v Types.vio
 TypesTest.vos TypesTest.vok TypesTest.required_vos: TypesTest.v Types.vos
-Sub.vo Sub.glob Sub.v.beautified Sub.required_vo: Sub.v ./Maps.vo Types.vo Smallstep.vo
-Sub.vio: Sub.v ./Maps.vio Types.vio Smallstep.vio
-Sub.vos Sub.vok Sub.required_vos: Sub.v ./Maps.vos Types.vos Smallstep.vos
-SubTest.vo SubTest.glob SubTest.v.beautified SubTest.required_vo: SubTest.v Sub.vo
-SubTest.vio: SubTest.v Sub.vio
-SubTest.vos SubTest.vok SubTest.required_vos: SubTest.v Sub.vos
+StlcProp.vo StlcProp.glob StlcProp.v.beautified StlcProp.required_vo: StlcProp.v ./Maps.vo Types.vo Stlc.vo Smallstep.vo
+StlcProp.vio: StlcProp.v ./Maps.vio Types.vio Stlc.vio Smallstep.vio
+StlcProp.vos StlcProp.vok StlcProp.required_vos: StlcProp.v ./Maps.vos Types.vos Stlc.vos Smallstep.vos
+StlcPropTest.vo StlcPropTest.glob StlcPropTest.v.beautified StlcPropTest.required_vo: StlcPropTest.v StlcProp.vo
+StlcPropTest.vio: StlcPropTest.v StlcProp.vio
+StlcPropTest.vos StlcPropTest.vok StlcPropTest.required_vos: StlcPropTest.v StlcProp.vos
