@@ -22,4 +22,10 @@ autograde: Hoare2.vo Smallstep.vo Stlc.vo Types.vo
 	coqc -Q . PLF StlcTest.v
 	coqc -Q . PLF TypesTest.v
 
+.PHONY: turnin
+turnin:
+	git add .
+	git commit -m "turnin"
+	git push -u origin main
+
 -include Makefile.coq
