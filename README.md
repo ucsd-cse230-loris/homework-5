@@ -6,7 +6,11 @@ You do not have to install Coq to do this assignment. Instead, you can use Githu
 
 
 ## Instructions
-Follow the instructions in [Hoare2.v](Hoare2.v), [SmallStep.v](SmallStep.v), [Stlc.v](Stlc.v), and [Types.v](Types.v) to complete definitions and proofs that are currently completed using `Admitted`. 
+Follow the instructions in [Hoare2.v](Hoare2.v), [SmallStep.v](SmallStep.v), [Stlc.v](Stlc.v), and [Types.v](Types.v) to complete definitions and proofs that are currently completed using `Admitted`.
+
+You are also responsible for [Sub.v](Sub.v) **only if we cover it in lecture**.
+
+**While we will give feedback on advanced and optional assignments, you are not required to complete them**
 
 ## Grading
 At any point, you may check your progress by running

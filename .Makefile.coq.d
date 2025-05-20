@@ -22,3 +22,9 @@ Types.vos Types.vok Types.required_vos: Types.v ./Maps.vos Smallstep.vos
 TypesTest.vo TypesTest.glob TypesTest.v.beautified TypesTest.required_vo: TypesTest.v Types.vo
 TypesTest.vio: TypesTest.v Types.vio
 TypesTest.vos TypesTest.vok TypesTest.required_vos: TypesTest.v Types.vos
+Sub.vo Sub.glob Sub.v.beautified Sub.required_vo: Sub.v ./Maps.vo Types.vo Smallstep.vo
+Sub.vio: Sub.v ./Maps.vio Types.vio Smallstep.vio
+Sub.vos Sub.vok Sub.required_vos: Sub.v ./Maps.vos Types.vos Smallstep.vos
+SubTest.vo SubTest.glob SubTest.v.beautified SubTest.required_vo: SubTest.v Sub.vo
+SubTest.vio: SubTest.v Sub.vio
+SubTest.vos SubTest.vok SubTest.required_vos: SubTest.v Sub.vos
