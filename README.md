@@ -8,8 +8,8 @@ You do not have to install Coq to do this assignment. Instead, you can use Githu
 ## Instructions
 Follow the instructions in [Hoare2.v](Hoare2.v), [SmallStep.v](SmallStep.v), [Stlc.v](Stlc.v), [Types.v](Types.v), and [StlcProp.v](StlcProp.v) to complete definitions and proofs that are currently completed using `Admitted`.
 
-**While we will give feedback on advanced and optional assignments, you are not required to complete them**
-**You are, however responsible for the non-advanced optional exercise on weakest preconditions in `Hoare2.v`, called `wp`**
+While we will give feedback on advanced and optional assignments, you are not required to complete them.
+**You are, however responsible for the non-advanced optional exercise on weakest preconditions in `Hoare2.v`, called `wp`.**
 
 ## Grading
 At any point, you may check your progress by running
